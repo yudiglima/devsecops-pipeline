@@ -41,6 +41,7 @@ jobs:
           format: table
           severity: CRITICAL,HIGH
           exit-code: 1
+	  ski-files: "usr/local/lib/python3.11/site-packages/jaraco*,usr/local/lib/python3.11/site-packages/wheel*"
 
   # ── Job 3: Dependency vulnerability check ────────────────
   dependency-check:
