@@ -1,0 +1,6 @@
+# zlib — vulnerability in Alpine's untgz utility, not used by this application
+CVE-2026-22184
+
+# jaraco.context and wheel — pip internal dependencies, not part of application code
+CVE-2026-23949
+CVE-2026-24049
